@@ -17,24 +17,38 @@ body {
     color: #3a3a3a;
 }
 
+h1,
+h2,
+h3 {
+    font-family: "Poppins";
+}
+
 /*Header*/
 header {
-    background-color: aqua;
+    background-color: #ffffff;
     width: 100%;
     text-align: center;
-    background-image: url(../images/logo.jpg)
 
+}
+
+.hidden-heading {
+    display: none;
+}
+
+header.img {
+    background-image: url(../images/Alto-Flute-horizontal.png);
 }
 
 .logo-image {
-    height: 100px;
-    width: 100px;
+    height: 150px;
+    width: 230px;
+    opacity: 85%;
     display: inline-block;
     margin: 20px;
+    border: 1px solid #00008b;
+
 
 }
-
-
 
 
 
