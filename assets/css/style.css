@@ -28,15 +28,14 @@ header {
     background-color: #ffffff;
     width: 100%;
     text-align: center;
-
+    position: fixed;
+    z-index: 99;
+    width: 100%;
+    box-shadow: 0 2px 2px #3a3a3a;
 }
 
 .hidden-heading {
     display: none;
-}
-
-header.img {
-    background-image: url(../images/Alto-Flute-horizontal.png);
 }
 
 .logo-image {
@@ -44,12 +43,22 @@ header.img {
     width: 230px;
     opacity: 85%;
     display: inline-block;
-    margin: 20px;
+    margin-top: 20px;
+    margin-bottom: 5px;
     border: 1px solid #00008b;
-
-
 }
 
+/*Navigation menu */
+
+header a {
+    text-decoration: none;
+    font-family: "Poppins";
+    list-style-type: none;
+}
+
+
+
+#menu {}
 
 
 /*Main content*/
