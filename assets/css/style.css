@@ -58,7 +58,10 @@ header a {
 
 
 
-#menu {}
+#menu {
+    font-size: 100%;
+    letter-spacing: 7px;
+}
 
 
 /*Main content*/
