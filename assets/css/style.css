@@ -108,3 +108,28 @@ main {
 footer {
     background-color: darkgoldenrod;
 }
+
+/* Media Query: tablets and larger (768px and up)*/
+@media screen and (min-width: 768px) {
+
+    .logo-image {
+        display: block;
+        margin-left: 5%;
+    }
+
+    nav {
+        display: flex;
+        position: relative;
+        width: fit-content;
+        list-style-type: none;
+    }
+
+    #menu {
+        display: flex;
+        padding-left: 1rem;
+    }
+
+    .nav-toggle-label {
+        display: hidden;
+    }
+}
